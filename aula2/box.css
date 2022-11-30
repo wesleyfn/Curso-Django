@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: #1f1f1f;
+}
+
+body {
+    background-color: #0c0c0c;
+    padding: 20px;
+}
+
+#inline-block-div > div:hover, #inline-div > div:hover, #block-div > div:hover {
+    background-color: #0e0e0e;
+}
+
+/* Display Inline (ajusta ao conteúdo)*/
+#inline-div > div{
+    display: inline;
+    background-color:chartreuse;
+}
+/**************************************/
+
+/* Display Inline-Block */
+#inline-block-div > div{
+    display: inline-block;
+    margin-top: 10px;
+    background-color:aquamarine;
+    width: 180px;
+    height: 95px;
+}
+/************************/
+
+/* Display Block */
+#block-div > div{
+    display: block;
+    margin-top: 10px;
+    background-color:blueviolet;
+    width: 180px;
+    height: 95px;
+}
+/*****************/

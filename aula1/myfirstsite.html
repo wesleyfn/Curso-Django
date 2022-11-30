@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Estacionamento de Naves</title>
+        <!-- <link rel="stylesheet" href="styles.css"> -->
+        <style>
+            * {
+                margin: 0px; 
+                padding: 0px;
+            }
+            body { 
+                background-color: #e3ecf4ff;
+            }
+            img { 
+                width: 70px;
+                margin: 30px;
+            }
+            #title-page {
+                display: flex;
+            }
+            #title-page-name {
+                align-self: center;
+                font-size: 25px;
+            }
+            #body-page {
+                display: flex;
+                flex-direction: column;
+                padding: 5px 20px;
+            }
+            .modulesA {
+                padding: 20px;
+                background-color: white;
+                margin: 30px 20px;
+                text-align: justify;
+                flex-basis: 50%;
+            }
+            .modulesB {
+                width: 100%;
+                padding: 20px;
+                background-color:rgb(205, 222, 253);
+                margin: 30px 20px;
+            }
+            .modulesC {
+                padding: 20px;
+                background-color:rgb(205, 222, 253);
+                margin: 0px 20px;
+            }
+            #top {
+                display: flex;
+                margin: 0px 40px 0px 40px;
+            }
+            #down {
+                display: flex;
+                flex-direction: column;
+                margin: 0px 40px 0px 40px;
+                
+            }
+            #btn-top {
+                bottom: 50px;
+            }
+        </style>
+    <body id="page">
+        <div id="title-page">
+            <img src="https://www.pngmart.com/files/6/Rocket-PNG-Clipart.png">
+            <div id="title-page-name">
+                Estacionamento Espacial
+            </div>
+        </div>
+        <div id="body-page">
+            <div id="top">
+                <div class="modulesA">
+                    <h3>Nossa História</h3>
+                    <br>
+                    <p> 1Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis quia ipsam itaque aperiam. Dolorem, corporis consectetur. Soluta dolorem nam aut omnis vel voluptate aperiam corporis, aliquid autem illum cumque quod?
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, odio mollitia! Possimus blanditiis autem sint quae error animi officiis impedit, sed adipisci, reiciendis, amet doloremque odit debitis enim at soluta?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nihil iste nostrum aspernatur, unde est ad quod impedit aliquam dicta rem a distinctio, eum veniam nulla labore sapiente error officia.
+                    </p>
+                </div>
+                <div class="modulesA">
+                    <h3>Como utilizar:</h3>
+                    <br>
+                    <p>
+                        2Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis quia ipsam itaque aperiam. Dolorem, corporis consectetur. Soluta dolorem nam aut omnis vel voluptate aperiam corporis, aliquid autem illum cumque quod?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, animi veniam labore quam odio ea impedit aliquid cumque ex laboriosam illo eius temporibus distinctio, exercitationem, voluptatum accusamus aut praesentium soluta.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem qui similique ea itaque, officia voluptate nemo ad distinctio eaque quibusdam aut tempore, nihil adipisci molestiae. Aliquid harum eaque deleniti soluta!
+                    </p>
+                </div>
+            </div>
+            <div id="down">
+                <div style="display: flex;">
+                    <div class="modulesB">
+                        <label for="proprietario">Nome do proprietário:</label>
+                        <input type="text" name="proprietario" required>
+                        <br><br>
+                        <label for="celular">Número de telefone:</label>
+                        <input type="text" name="celular" required>
+                        <br><br>
+                        <label for="alienigena">É alienigena?</label>
+                        <input type="checkbox" name="alienigena">
+                    </div>
+                    <div class="modulesB">
+                        <label for="placa">Placa da nave:</label>
+                        <input type="text" name="placa" required>
+                        <br><br>
+                        <label for="marca">Marca da nave:</label>
+                        <input type="select" name="marca">
+                        <br><br>
+                        <label for="quantidade">Número de naves:</label>
+                        <input type="number" name="quantidade">
+                    </div>    
+                </div>
+                <div class="modulesC">
+                    <label for="data">Data e hora da chegada:</label>
+                    <input type="datetime-local" name="data">
+                    <br><br>
+                    <label for="observacao">Observação:</label>
+                    <input style="width: 100%;" type="text" name="observacao">
+                    <br><br>
+                </div>
+                <footer style="margin: 30px;">
+                    <a href="https://pt.wikipedia.org/wiki/Lista_de_espa%C3%A7onaves_de_Star_Wars">
+                        Lista de Espaço Naves
+                    </a>
+                    <br>
+                    <a id="btn-top" href="#">
+                        Para o topo
+                    </a>
+                </footer>
+            </div>
+        </div>
+    </body>
+</html>

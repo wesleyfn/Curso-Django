@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body>
+    <div id="container">
+        <div id="main-box">
+            <h2>Adivinhe o Número</h2>
+            <p id="description">
+                Selecionamos um número aleatório entre 1 e 100.
+                Veja se consegue adivinhar em 10 chances ou menos.
+                Nós lhe diremos se seu palpite está com valor alto ou baixo.
+            </p>
+            <div>
+                <label for="txt-shot" id="lbl-insert-shot">
+                    Insira seu palpite:
+                </label>
+                <input type="texto" id="txt-shot" placeholder="10">
+                <button id="btn-try">Tentar</button>
+            </div>
+            <label id="lbl-shots"></label>
+        </div>
+    </div>
+
+</body>
+<script src="calculator.js"></script>
+</html>
+
